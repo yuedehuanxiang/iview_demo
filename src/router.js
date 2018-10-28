@@ -65,6 +65,18 @@ export default new Router({
           component:() => import('./views/Form6.vue')
       },
       {
+          path:'/form7',
+          component:() => import('./views/Form7.vue')
+      },
+      {
+          path:'/form8',
+          component:() => import('./views/Form8.vue')
+      },
+      {
+          path:'/form9',
+          component:() => import('./views/Form9.vue')
+      },
+      {
           path:'/table3',
           component:() => import('./views/Table3.vue')
       },
