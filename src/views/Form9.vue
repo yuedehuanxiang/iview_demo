@@ -3,6 +3,7 @@
         <h1>不使用form 自带的验证 ，自行验证数据</h1>
         <br><br>
 
+        
         <Form ref="form" :modal="form" :label-width="70">
             <FormItem label="姓名">
                 <Input v-model="form.name" />
