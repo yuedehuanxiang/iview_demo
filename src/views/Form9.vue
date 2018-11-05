@@ -2,8 +2,8 @@
     <div style="padding: 32px 500px;">
         <h1>不使用form 自带的验证 ，自行验证数据</h1>
         <br><br>
+        <img src="../assets/logo.png" alt="">
 
-        
         <Form ref="form" :modal="form" :label-width="70">
             <FormItem label="姓名">
                 <Input v-model="form.name" />
@@ -16,7 +16,8 @@
             </FormItem>
             <Button @click="handleSubmit" type="primary" :loading="isSubmit">提交</Button>
         </Form>
-
+        <div class="img">
+        </div>
     </div>
 </template>
 
@@ -59,5 +60,11 @@
 </script>
 
 <style scoped>
-
+    .img{
+        background-image: url("~@/assets/git.png");
+        background-repeat: no-repeat;
+        width: 200px; height: 200px;
+        background-position: center;
+        background-size: cover
+    }
 </style>

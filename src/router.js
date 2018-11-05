@@ -128,5 +128,30 @@ export default new Router({
           path:'/slotScope',
           component:() => import('./views/slotScope.vue')
       },
+      {
+          path:'/component4',
+          component:() => import('./views/Component4.vue')
+      },
+      {
+          path:'/component5',
+          component:() => import('./views/Component5.vue')
+      },
+      {
+          path:'/component6',
+          component:() => import('./views/Component6.vue')
+      },
+      {
+          path:'/component7',
+          component:() => import('./views/Component7.vue')
+      },
+      {
+          path:'/component8',
+          component:() => import('./views/Component8.vue')
+      },
+      {
+          path:'/component9',
+          component:() => import('./views/Component9.vue')
+      },
+
   ]
 })
